@@ -1,0 +1,81 @@
+@font-face {
+  font-family: 'interBold';
+  src: url('@/assets/font/Inter-Extra-Bold-800.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.bg-blue-fonce {
+	background-color: #26386A !important;
+}
+
+.bg-blue-semi-clair {
+	background-color: #01537D !important;
+}
+
+.bg-blue-clair {
+	background-color: #3C95C0 !important;
+}
+
+.text-blue-fonce {
+	color: #26386A !important;
+}
+
+.text-blue-semi-clair {
+	color: #01537D !important;
+}
+
+.text-blue-clair {
+	color: #3C95C0 !important;
+}
+
+h2, .inter, h1{
+	font-family: 'interBold', sans-serif;
+}
+
+.border-blue-clair {
+	border-color: #3C95C0 !important;
+}
+
+.bg-blue-clair-opacity {
+	background-color: rgba(60, 149, 192, 0.61);
+}
+
+
+.card-text, .link, .card-title{
+	font-family: 'interBold', sans-serif !important;
+}
+
+.btnInput:hover {
+	background-color: #3C95C0 !important;
+}
+
+/* Bandeau  */
+.marquee-container {
+	white-space: nowrap;
+	position: relative;
+}
+
+.marquee {
+	display: inline-block;
+	animation: scroll-left 25s linear infinite;
+}
+
+.marquee-item {
+	display: inline-block;
+}
+
+.logo-img {
+	width: 80px;
+	height: auto;
+	border-radius: 10px;
+}
+
+@keyframes scroll-left {
+	0% {
+	transform: translateX(0%);
+	}
+	100% {
+	transform: translateX(-50%);
+	}
+}
