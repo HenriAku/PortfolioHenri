@@ -15,7 +15,6 @@ const handleSubmit = async () => {
     alert("Veuillez remplir tous les champs.")
     return
   }
-
   try {
     const response = await fetch('https://portfoliohenri-backend.onrender.com/api/contact', {
       method: 'POST',
