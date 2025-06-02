@@ -3,11 +3,15 @@
 		<img src="/img/Fond.png" alt="Image de fond du header" class="w-100"/>
 		<div class="position-absolute top-0 start-0 w-100 h-100 bg-black opacity-50"></div>
 
-		<div class="position-absolute top-50 start-50 translate-middle w-50 d-flex justify-content-between align-items-center px-5 px-md-5 d-flex flex-column flex-md-row">
+		<div class="position-absolute top-50 start-50 translate-middle w-50 d-flex justify-content-between align-items-center px-5 px-md-5 flex-column flex-md-row">
 			<div class="text-white">
 				<h3 class="display-5 d-none d-md-block">👋Salut je suis</h3>
 				<h1 class="display-1 mt-5 mt-md-0"><strong><em>Henri</em></strong></h1>
 				<h3 class="display-5 d-none d-md-block">Développeur</h3>
+				<div class="d-flex justify-content-center w-75 ps-3">
+					<a href="https://github.com/HenriAku"><img src="/img/github.png"></a>
+					<a href="https://www.linkedin.com/in/henri-rougeolle-16b31930b/">	<img src="/img/linkedin.png" class="ps-5"></a>
+				</div>
 			</div>
 
 			<img
