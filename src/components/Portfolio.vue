@@ -25,7 +25,7 @@ const cards = [
 	{
 		titre: 'Inazuma Dle site web',
 		date: '2025',
-		url: '/projet3',
+		url: '/projet4',
 		urlImg: new URL('@/assets/img/projet4/accueil.png', import.meta.url).href
 	},
 	{

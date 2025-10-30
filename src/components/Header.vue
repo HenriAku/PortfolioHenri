@@ -15,7 +15,7 @@
 			</div>
 
 			<img
-				src="/img/shikamaruPP.jpg"
+				src="/img/ppRonde.png"
 				alt="Ma photo de profil"
 				class="rounded-pill border border-black border-2"
 				style="width: 40%; height: 40%; object-fit: cover;"
